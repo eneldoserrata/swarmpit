@@ -1,4 +1,4 @@
-(defproject swarmpit "1.7-SNAPSHOT"
+(defproject swarmpit "1.6"
   :description "Docker swarm management UI"
   :url "http://swarmpit.io"
   :license {:name "Eclipse Public License"
@@ -31,7 +31,6 @@
                  [buddy/buddy-hashers "1.2.0"]
                  [clojure-humanize "0.2.2"]
                  [http-kit "2.2.0"]
-                 [enlive "1.1.6"]
                  [clj-http "3.8.0"]
                  [clj-yaml "0.4.0"]
                  [cljs-ajax "0.5.8"]
@@ -45,11 +44,6 @@
                  [com.cemerick/url "0.1.1"]
                  [com.cemerick/friend "0.2.3"]
                  [com.cognitect/transit-cljs "0.8.256" :exclusions [org.yaml/snakeyaml]]
-                 [com.cognitect.aws/api "0.8.271"]
-                 [com.cognitect.aws/endpoints "1.1.11.503"]
-                 [com.cognitect.aws/ecr "701.2.394.0"]
-                 [com.cognitect.aws/iam "697.2.391.0"]
-                 [com.cognitect.aws/sts "697.2.391.0"]
                  [org.yaml/snakeyaml "1.18"]
                  [org.flatland/ordered "1.5.6"]
                  [com.github.jnr/jnr-unixsocket "0.18"]]
